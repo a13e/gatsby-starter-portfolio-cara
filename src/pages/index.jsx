@@ -65,38 +65,38 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Kohei Abe.
         </BigTitle>
-        <Subtitle>I'm a Creator at Tokyo.</Subtitle>
+        <Subtitle>I'm a Software Engineer at Tokyo.</Subtitle>
       </Hero>
       <Projects>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
-            bg="linear-gradient(to right, #555555 0%, #444444 100%)"
-          >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
-          </ProjectCard>
-          <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
-            bg="linear-gradient(to right, #555555 0%, #444444 100%)"
-          >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
-          </ProjectCard>
-          <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
-            bg="linear-gradient(to right, #555555 0%, #444444 100%)"
-          >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
-          </ProjectCard>
-          <ProjectCard
-            title="Eagle"
+            title="dict"
             link="https://www.behance.net/gallery/38068151/Eagle"
             bg="linear-gradient(to right, #555555 0%, #444444 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Dictation app based on YouTube video. This is an app for English learners.
+          </ProjectCard>
+          <ProjectCard
+            title="調 - sirabe"
+            link="https://www.behance.net/gallery/58937147/Freiheit"
+            bg="linear-gradient(to right, #555555 0%, #444444 100%)"
+          >
+            Web app which analyzes an iTunes library and visualizes it.
+          </ProjectCard>
+          <ProjectCard
+            title="Being"
+            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            bg="linear-gradient(to right, #555555 0%, #444444 100%)"
+          >
+            Office monitoring system.
+          </ProjectCard>
+          <ProjectCard
+            title="giftee reception iOS app"
+            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            bg="linear-gradient(to right, #555555 0%, #444444 100%)"
+          >
+            Reception iOS native app for giftee inc.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -105,17 +105,15 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            Hello, world.
+            <br />
+            <br />
+            I’m a Software Engineer currently working at Tokyo in Japan.
+            <br />
+            <br />I can build Web/iOS applications using Ruby, JavaScript and Swift.
           </AboutSub>
         </AboutHero>
-        <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
-        </AboutDesc>
+        <AboutDesc />
       </About>
       <Contact>
         <Inner>
@@ -127,8 +125,9 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
+          &copy; 2019 by Kohei Abe. <br />
+          This page is based on{' '}
+          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">gatsby-starter-portfolio-cara</a>. Made by{' '}
           <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
