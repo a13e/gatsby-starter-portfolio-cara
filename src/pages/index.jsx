@@ -116,14 +116,7 @@ const Index = () => (
         <AboutDesc />
       </About>
       <Contact>
-        <Inner>
-          <Title>Get in touch</Title>
-          <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
-          </ContactText>
-        </Inner>
+        <Inner />
         <Footer>
           &copy; 2019 by Kohei Abe. <br />
           This page is based on{' '}
